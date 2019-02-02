@@ -1,0 +1,79 @@
+.mainDiv{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.subDiv{
+  width: 85%;
+  padding: 1%;
+  margin: 1%;
+  border: 2px solid #000;
+  justify-content: center;
+  border-color: #030606;
+}
+.subDiv1{
+  width: 40%;
+  padding: 1%;
+  margin: 1%;
+  border: 2px solid #000;
+  justify-content: center;
+  border-color: #030606;
+}
+select,input{
+  width:90%;
+  margin: 1%;
+
+}
+.subDiv h1{
+  color:#51119C;
+}
+.subDiv1{
+  color:#51119C;
+}
+
+button{
+   margin-left: 50%;
+}
+a img{
+  height: 15%;
+  width:15%;
+  margin-left: 43%;
+}
+header{
+  text-align: center;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:
+}
+.child{
+  width: 30%;
+  border:  2px solid #000;
+  box-shadow: 3px 3px 3px #ddd;
+text-align: center;
+padding: 5%;
+margin: 1%;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.left{
+  flex: 1;
+  border:2px solid #000;
+  padding: 1%;
+  margin: 2%;
+  background-color: #E1F3FA;
+}
+.right{
+  flex: 3;
+  border:2px solid #000;
+  padding: 1%;
+  margin: 2%;
+  background-color: #E1F3FA;
+}
+h1{
+  color: #C21097;
+}

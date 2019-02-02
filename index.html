@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Building</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body bgcolor="#F0E1E7">
+<header>
+  <h1> Resume Building</h1>
+</header>
+<a href="form.html"><img src="amm.jpg" alt="birds"></a>
+  <div class="parent">
+    </div>
+  </body>
+</html>
+<script type="text/javascript"src="main.js">
+</script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('sworker.js')
+.then((register)=>{
+register.addEventListener('update found',()=>{
+  var installingsw = register.installing;
+  console.log("service sworker is installing",installingsw);
+});
+});
+.cache((e)=>{
+console.log("error"+e);
+})
+}
+else {
+console.log("browser not support in service worker");
+}
+</script>
