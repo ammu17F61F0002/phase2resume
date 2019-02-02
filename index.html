@@ -16,20 +16,4 @@
 </html>
 <script type="text/javascript"src="main.js">
 </script>
-<script type="text/javascript">
-if ('serviceWorker' in navigator) {
-navigator.serviceWorker.register('sworker.js')
-.then((register)=>{
-register.addEventListener('update found',()=>{
-  var installingsw = register.installing;
-  console.log("service sworker is installing",installingsw);
-});
-});
-.cache((e)=>{
-console.log("error"+e);
-})
-}
-else {
-console.log("browser not support in service worker");
-}
-</script>
+
